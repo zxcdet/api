@@ -1,5 +1,7 @@
 services:
   backend:
+    environment:
+      - NODE_ENV=production
     build:
       context: .
       dockerfile: Dockerfile
@@ -7,8 +9,6 @@ services:
       - "3000:3000"
     volumes:
       - .:/app
-    environment:
-      - NODE_ENV=production
     networks:
       - app-network
 
