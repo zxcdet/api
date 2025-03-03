@@ -17,4 +17,4 @@ $ docker-compose up --build
 
 Navigate to nodemon `http://localhost:3000`
 
-Navigate to nginx `http://localhost:9001`
+Navigate to docker-nginx `http://localhost:9001`
