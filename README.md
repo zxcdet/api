@@ -15,6 +15,6 @@ $ docker-compose up --build
 1. Dev: `npm run start`
 2. Prod: `npm run start:prod`
 
-Navigate to `http://localhost:3000`
+Navigate to nodemon `http://localhost:3000`
 
 Navigate to nginx `http://localhost:9001`
